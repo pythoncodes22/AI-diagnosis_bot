@@ -19,12 +19,12 @@ diagnosis_descriptions = {
 
 # Define the training data
 training_data = [
-    {"test": [5, 10, 9], "diagnosis": 3},  # Example 1: Game state [5, 10, 9], Diagnosis: 3
+    {"test": [5, 10, 9], "diagnosis": 3},
     {"test": [1, 1, 2], "diagnosis": 2},
     {"test": [3, 2, 6], "diagnosis": 1},
     {"test": [1, 1, 4], "diagnosis": 1},
     {"test": [2, 1, 1], "diagnosis": 2},
-    # Add more training data examples as needed
+    
 ]
 
 # Define rewards associated with each training example
