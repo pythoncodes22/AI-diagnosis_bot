@@ -8,7 +8,8 @@ import asyncio
 input_size = 3 
 hidden_layers = 8  # Number of hidden layers
 hidden_units = 512  # Number of neurons in each hidden layer
-output_size = 3  # Number of possible moves in Monopoly
+output_size = 3  # Number of possible outcomes
+
 
 diagnosis_descriptions = {
     1: "Diagnosis type 1: Go to the doctor.",
