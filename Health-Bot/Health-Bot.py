@@ -161,12 +161,12 @@ async def info(ctx):
                     value="!predict - Get Diagnosed by the AI\n!support - diagnosis types descriptions\n!train <epochs> - Train the AI model\n!info - Display information about the AI\n!feedback <test and correct diagnosis> - Provide feedback for an incorrect diagnosis",
                     inline=False)
     embed.add_field(name="About",
-                    value="This AI model has been trained on a limited dataset and may not diagnose you corectly. Use it as a guide and rely on your own judgment.",
+                    value="This AI model has been trained on a limited dataset and may not diagnose you correctly. Use it as a guide and rely on your own judgment.",
                     inline=False)
 
     await ctx.send(embed=embed)
 
 
-TOKEN = "MTExNzM3OTM1NjA1OTI1MDc0OQ.G9_3qh.UGlvWkIOLhJYboEU_r3Dh3qLee08_t8tXHM0QU"
+TOKEN = "token"
 
 bot.run(TOKEN)
