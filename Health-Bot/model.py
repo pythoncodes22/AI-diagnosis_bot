@@ -40,7 +40,7 @@ def augment_data(data, num_augmentations):
 
 # Augment the training data
 augmented_training_data = augment_data(training_data, num_augmentations=10)
-augmented_rewards = rewards * 10
+augmented_rewards = rewards * (len(augmented_training_data) // len(rewards))
 class NeuralNetwork:
     def __init__(self, input_size, hidden_layers, hidden_units, output_size):
         self.input_size = input_size
@@ -73,4 +73,3 @@ class NeuralNetwork:
             [example['diagnosis'] - 1 for example in training_data])  # Adjust move indices to start from 0
 
         self.model.fit(input_data, target_data, epochs=epochs, sample_weight=np.array(rewards), verbose=0)
-
