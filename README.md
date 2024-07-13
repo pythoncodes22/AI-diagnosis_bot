@@ -21,3 +21,17 @@ SCALE:
 this AI model interacts with the Discord interface.
 
 add him to your server by clicking here https://discord.com/api/oauth2/authorize?client_id=1117379356059250749&permissions=8&scope=bot
+
+
+
+
+
+
+
+
+
+
+NOTE:
+
+
+at the time of this post, due to my wifi, health-bot is no longer online. but he will be soon!
