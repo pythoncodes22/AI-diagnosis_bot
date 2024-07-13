@@ -19,3 +19,5 @@ SCALE:
 10: worst
 
 this AI model interacts with the Discord interface.
+
+add him to your server by clicking here https://discord.com/api/oauth2/authorize?client_id=1117379356059250749&permissions=8&scope=bot
